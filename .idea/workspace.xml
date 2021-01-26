@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d1771b14-7293-429e-a093-86837e718e7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner-wiatag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/banner-zavgar-online.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bonus-cards (old).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bonus-cards.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bpgpstdiia/employee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bpgpstdiia/manager.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bpgpstdiia/supervisor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/150-humans (old).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/150-humans.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/150-koleg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/1413750757456[1].jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/1920139_1394440364156094_1240928373_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/1T_Ve_2AepQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/1ThL3ZyBato.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/20140624_175529.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/2015_01_25+19_46_46+_1_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/2015_01_25+19_50_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/3030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/485158d8_o.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/661.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/7ba2TPexSUw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/8S5xSK1AHlE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/Anton&amp;Nadya_0015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/CIMG0329.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/DSC00014[1].JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/DSC_0025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/DSC_0203.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/DSC_0838.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/DSC_0964.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/DSC_7206oo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/IMG_0328.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/IMG_0541.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/IMG_0574.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/IMG_1427.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/IMG_2009.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/PICT1750.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/Rt7ciZVRSuo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/Ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/S2500559.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/Screenshot_2015_02_05_15_47_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/UoNfrZCbNys.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/WP_20130629_014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/_DSC7547.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/afvefdgnks.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/f2dPr52nW5k.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/g5U2BAJFspMq2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/getIamage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/getImage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/getImage676.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/getImage7688.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/image-07-05-14-08-20.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/image1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/imatge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/kartinka001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/kkESjvsgUnc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/l5BXTryzAx0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/p4kCPCT12lE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/photo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/photo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/photo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/photo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/rqtw2w_cHKg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/sp_a0032.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/stories51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/stories518.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/v0mZKbH1QZY.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/vXltSWcWGxg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/x_189deeea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/xfSkAOz2Asc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/y_7ad3ad20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/yayayaya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/yayayayayayayayayayayayayayayaya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/icon-img/z_e0072bda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/nagrada-ey-box.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-12_old.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/pr-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/big/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/company/slides/small/33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/control-autopark-without-arrow (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/control-autopark-without-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/darim1000_gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/348 Daewoo.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/351 Азимут SHAOLIN.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/BAIC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/Dongfeng N2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/Dongfeng N3 KC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/Dongfeng_M1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/FAW CA4250.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/FAW_D60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/FAW_J6P.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/FAW_X80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/FOTON Sauvana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/HAIMA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/IvecoBUS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/MAN_Lions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/MercedesSprinterCLASSIC_T1N_909.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/MercedesSprinter_NCV3_906.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/PKTS_6281_Admiral.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/SCANIA P_G.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/Trakker_Stralis_Genlyon_Kingkan_ASTRA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/Volvo FM_FH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/era_glonass_device.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/era_glonass_system.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/sbkts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/Вихрь.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/КАВЗ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/МАН TGX TGS TGL TGM.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/НЕФАЗ 5299_52994.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/certificates/Тролза.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-demontaj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-functions.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-knopka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-nastupaet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-obyaz-sert.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-poryadok-polucheniya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-princip_work.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-rastamojka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-rastamojka2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-slejka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-sostav.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era-specialisti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era_glonass_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/era_glonass_logo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/337 BAIC.PDF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/348 Daewoo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/351 Азимут SHAOLIN.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/356 Вихрь.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/357 IVECO.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/DONGFENG N2_G.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/DONGFENG N3 KC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/DONGFENG_M1_L.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/FAW_D60_M1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/FAW_J6P.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/FAW_J6_CA4250.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/FAW_X80_M1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/FOTON Sauvana.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/HAIMA M1.PDF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/IVECO Trakker_Stralis_Genlyon_Kingkan_ASTRA.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/MAN TGS_TGX_TGL_TGM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/MAN_Lions Intercity_Lions Regio.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/PKTS_6281_Admiral.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/SCANIA P_G.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/Volvo FM FH.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/era_glonass_device.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/era_glonass_system.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/Мерседес 906 NCV3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/Мерседес 909 T1N.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/НЕФАЗ 5299_52994.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/Сертификат КАВЗ.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/era-glonass/pdf-certificates/ТРОЛЗА Сертификат.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faq/3-knopki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faq/enter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faq/no-ts-in-spisok.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faq/no-ts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faq/vybor-karty-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/faq/vybor-karty-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/glonass_sos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/glonass_voice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/ico-allrussia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/ico-glonass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/ico-glosav.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/ico-partner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/ico-pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/ico-zakon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/partner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/Сырье/ico-allrussia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/Сырье/ico-partner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fifa-2018/Сырье/ico-zakon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/app-store-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/avatars/Group 285.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/avatars/Group 286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/avatars/Group 287.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/avatars/Group 288.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/avatars/Group 289.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/block-bg 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/google-play-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 268.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 290.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 337.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 545.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Group 557.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Search 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/Vector 113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/icon-pin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/ico/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/image 31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/image 32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/image 41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/image 42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/image 43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/image 44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/image 45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/logo-footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/slider.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/social/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/social/telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/figma/social/wa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/findeme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/first-aid-kit-3_icon-icons.com_58893.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/fon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/glonass-gps-monitoring-kurierov/avtm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/glonass-gps-monitoring-kurierov/classic-phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/glonass-gps-monitoring-kurierov/icon-integration.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/glonass-gps-monitoring-kurierov/icon-load.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/glonass-gps-monitoring-kurierov/icon-parking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/glonass-gps-monitoring-kurierov/icon-sand-time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-tracker/gas-drain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-tracker/gas-spent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-tracker/ico-auto-tracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-tracker/ico-park.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-tracker/kontrol-speed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-tracker/kontrol-to.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-tracker/rew-drive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-tracker/temp-car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-tracker/time-work.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/baby-cry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/baby-watches-priimushestva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-scheme-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-scheme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-zone-1(old).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-zone-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-zone-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-zone-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-zone-3-4-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-zone-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-zone-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-zone-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/bg-zone-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/boy-tip-top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/btn-answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/btn-order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/btn-video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/btn-video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/card-watch-black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/card-watch-blue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/card-watch-green.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/card-watch-pink.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/gps-chasy-harakteristiki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/interface-app.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/iphone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/list-dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-alarm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-foot-print.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-geo-zony.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-geo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-intercom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-menu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-message.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-rewards.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-rewards2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-seting.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-settings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/se-tracker-watch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/semja-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/semja-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/semja-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/semja-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/slide-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/stage-path-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/stage-path-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/stage-path-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/telefon-vs-watch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/treker_krs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/zn2-ico1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/zn2-ico2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/zn2-ico3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/zn2-ico4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/zn2-ico5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/zn4-option1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/zn4-option2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/zn4-option3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gps-watch/zn4-option4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/gui_testimonial_icon_158371.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/dopog_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/gaz-neft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/gkh-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/gkhi-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/gruzoperevozki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/kombain-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/kyrs_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/logistika-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/marshrutka-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/monitoring_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/opasno.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/spectehnika-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/tahograph_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/taxi-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ico/videonab_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/index/gps-smart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/index/helm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/index/manual.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/index/pers-mon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/apk710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/gkh-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/gkh715.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/glonass-na-musorovoz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/glonassi-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/gruz710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/gruzoperevozki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/iqfreeze.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/kombain-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/kontrol-temperatury-v-refrizheratore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/kontrol-v-refrizheratore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-all.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-benzovoz-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-benzovoz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-logic-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-logic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-marshrutka-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-marshrutka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-musorovoz-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-musorovoz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-samosval-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-samosval.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-spectehnika-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-spectehnika.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-taxi-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-taxi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-traktor-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-traktor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-tyagach-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/korobka-tyagach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/logic710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/logistika-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/marshrutka-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/mobile-app-iQFreeze.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/neft-gaz-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/neft-gaz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/opasno-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/opasnye-gruzy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/passagir710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/soft-iQFreeze.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/spectech710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/spectehnika-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/taxi-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/industry/taxi710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/Glonass_mon.tran.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/calculator.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/ekonomiya-topliva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/era-glonass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/glonass-info_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/glonass-info_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/glonass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/gps.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/gurtam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/lls.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/omnicomm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/trimble.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/wialon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/info/wialon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_1_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_2_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_3_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_4_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_5_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/control_azs/cazs-pic_6_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/cat-15_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/cat-15_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/cat-15_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/cat-15_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/don-680-30_08_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/don-680-30_08_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/don-680-30_08_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/don-680-30_08_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/don-680-30_08_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/hidromek-15_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/hidromek-15_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/hidromek-15_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/hitachi-17_04_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/hitachi-17_04_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/hitachi-17_04_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/hitachi-17_04_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/hitachi-17_04_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/john-deere-14_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/john-deere-14_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/john-deere-14_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/john-deere-14_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/john-deere-14_03_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/john-deere-30_04_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/john-deere-30_04_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/john-deere-30_04_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/john-deere-30_04_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kamaz-14_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kamaz-14_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kamaz-14_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kamaz-14_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kamaz-14_03_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kamaz2-14_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kamaz2-14_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kamaz2-14_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kamaz2-14_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kater-06_06_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kater-06_06_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kater-06_06_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kater-06_06_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/kater-06_06_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/katok-06_06_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/katok-06_06_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/katok-06_06_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/katok-06_06_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/man-15_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/man-15_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/man-15_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/man-15_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/mtz-15_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/mtz-15_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/mtz-15_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/mtz-15_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/mtz-15_03_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/oprysk-30_04_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/oprysk-30_04_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/oprysk-30_04_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/oprysk-30_04_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/oprysk-30_04_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/tracktor-150-30_04_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/tracktor-150-30_04_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/tracktor-150-30_04_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/tracktor-150-30_04_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/volvo-24_04_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/volvo-24_04_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/volvo-24_04_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/volvo-24_04_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/volvo-24_04_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/zil-15_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/zil-15_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/mini/zil-15_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/cat-15_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/cat-15_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/cat-15_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/cat-15_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/don-680-30_08_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/don-680-30_08_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/don-680-30_08_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/don-680-30_08_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/don-680-30_08_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/hidromek-15_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/hidromek-15_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/hidromek-15_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/hitachi-17_04_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/hitachi-17_04_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/hitachi-17_04_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/hitachi-17_04_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/hitachi-17_04_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/john-deere-14_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/john-deere-14_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/john-deere-14_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/john-deere-14_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/john-deere-14_03_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/john-deere-30_04_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/john-deere-30_04_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/john-deere-30_04_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/john-deere-30_04_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kamaz-14_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kamaz-14_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kamaz-14_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kamaz-14_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kamaz-14_03_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kamaz2-14_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kamaz2-14_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kamaz2-14_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kamaz2-14_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kater-06_06_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kater-06_06_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kater-06_06_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kater-06_06_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/kater-06_06_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/katok-06_06_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/katok-06_06_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/katok-06_06_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/katok-06_06_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/man-15_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/man-15_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/man-15_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/man-15_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/mtz-15_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/mtz-15_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/mtz-15_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/mtz-15_03_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/mtz-15_03_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/oprysk-30_04_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/oprysk-30_04_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/oprysk-30_04_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/oprysk-30_04_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/oprysk-30_04_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/tracktor-150-30_04_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/tracktor-150-30_04_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/tracktor-150-30_04_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/tracktor-150-30_04_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/volvo-24_04_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/volvo-24_04_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/volvo-24_04_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/volvo-24_04_14-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/volvo-24_04_14-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/zil-15_03_14-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/zil-15_03_14-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/instal/zoom/zil-15_03_14-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/icon/mail-icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/icon/mail-icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/icon/mail-icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/icon/mail-icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/icon/mail-icon-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1053-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1069-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1126-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1161-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1177-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1201-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1269-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/127-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1270-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1271-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1273-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1297-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1298-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1299-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/131-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1342-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1408-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1507-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1508-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/1517-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/159-user-old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/159-user-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/159-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/204-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/208-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/212-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/224-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/236-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/236.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/237-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/242-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/252-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/263-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/265-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/271-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/273-user-copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/273-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/276-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/277-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/283-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/288-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/291.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/292-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/293-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/294-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/295-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/297-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/298-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/3-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/302-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/303-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/304-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/306-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/308-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/309-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/31-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/311-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/313-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/317-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/319-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/325-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/327-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/329-user (old).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/329-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/331-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/332-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/333-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/335-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/336-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/337-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/340-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/341-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/342-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/343-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/344-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/345-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/346-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/347-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/354-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/355-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/360-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/361-user(old).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/361-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/362-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/364-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/364-user_old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/366-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/367-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/373-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/375-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/377-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/378-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/380-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/381-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/382-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/382-user_old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/400-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/471-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/548-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/595-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/631-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/661-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/662-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/83-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/9-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/dze@stavtrack.ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/eou@stavtrack.ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/gaa@stavtrack.ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/kalugin666@yandex.ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/foto/lev@stavtrack.ru.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/img/1-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/img/293-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/img/297-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/img/302-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/img/304.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-manager/img/306.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/icon9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/line1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/letter-price/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/logo-sbis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/logo-stavtrack-200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/tahograf/category_tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/tahograf/price-tahograph.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/mail/tahograf/tahograf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/285prikaz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/60km.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/8-kamer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/Back-up.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/Back-up_mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/Digitac_Pro_glavanya_straniza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/Digitac_Pro_glavanya_straniza_mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/alfa-bank-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/alfa-karta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/all-klienty.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-GreenSeeker-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-GreenSeeker-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-Irrigate-IQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-RainWave.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-WM-Drain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-WM-Topo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-compensaciya-nerovnostey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-connected-farm-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-connected-farm-zoom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-connected-farm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-connected-farm2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-cropio-analiz-polya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-cropio-azot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-cropio-field-zoning.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-cropio-fild-mon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-cropio-landshaft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-cropio-news.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-cropio-pogoda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-cropio-reports.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-cropio-sms.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-cropio-traktor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-damba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-farm-manager.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-green-seeker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-mobile-resh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-monitoring-urogaya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-rg-100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-ruchnoy-green-seeker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-scraper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-shema-truetracker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-upravlenie-vneseniem.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-ux5-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-ux5-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-ux5-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-ux5-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-ux5-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-vidy-trueGuide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-vidy-truetracker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/apk-weedseeker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/audio-kontrol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/auto-scool.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/autostop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/avtonom-gps-treker-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/avtonom-gps-treker-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/bank-card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/bank-card_old.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/bg-baner-in-wialon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/bg-panel-in-wialon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/block-skzi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/business_model.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-bus/1proc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-bus/can-log.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-bus/catalog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-bus/fuel-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-bus/fuel_value_en.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-bus/nican-connect.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-bus/nican.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-bus/radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-bus/scrin-kabinet-admina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-bus/scrin-vibor-otchetov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/can-log.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/car-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-25-proc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-azs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-azs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-bonus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-busness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-cabinet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-free-shipping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-otchet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-shtrafov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/card-toplivo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/288.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/card-bonus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/card-cabinet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cashbox/home-oplata.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cazs-benzovoz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cazs-zapravka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cazs_oborud_zaprav.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cazs_tipovoe-reshenie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/check-icon-voskl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/check-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/collective.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/collective2020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/contacts_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/contacts_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/contacts_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/contacts_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/autostop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/azs-black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/azs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/bad-rezina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/cashback.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/cifri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/company-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/company-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/company-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/company-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/company-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/company-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/company-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/company-31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/director.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/distance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/fuel-card.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/garantiya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/horosho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-213.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/icon-43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/kartina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/kasko-black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/kasko.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/kontrol-speed-black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/kontrol-speed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/kontrol-to.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/kpi-black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/kpi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/logic-price.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/marshrut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/mehanik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/money.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/narusheniya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/nedoliv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/obnal-card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/obslujivanie-black.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/obslujivanie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/odometr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/opasny-stile-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/opasny-stile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/premiya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/pribil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/prognoz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/question.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/rezina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/shtraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/sliv-topliva.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/uvedomleniya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/vig_7_year.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/vig_cashback.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/vig_garantiya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/voditel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/autostop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/azs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/bad-rezina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/distance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/kasko.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/kontrol-speed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/kontrol-to.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/kpi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/marshrut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/nedoliv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/obnal-card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/obslujivanie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/odometr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/opasny-stile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/rezina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/shtraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/control-ts/Резерв/sliv-topliva.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/cow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/datchik-nagruzki-na-os-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/datchik-nagruzki-na-os-in-wialon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/datchik-nagruzki-na-os-pnevmo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/datchik-nagruzki-na-os-ressora.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/datchik-urovnya-topliva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/datchik_rashoda_topliva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dav-bort-pogruz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dav-front-pogrizchik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dav-kamaz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dav-karyerny-samosval.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dav-sochleneny-samosval.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dav-tygach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/davlenie-reason3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/davlenie-reason4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/davlenie-reason5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/davlenie-reason6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/davlenie-rison1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/davlenie-rison2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/devices.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/diagnosticheskaja-karta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/digi-tac-pro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dilers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/doc-mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dogovor-lizinga.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dogovor-perevozki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dopog-raboty-abs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dopog-raboty-massa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dopog-raboty-ognetushitel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dopog-raboty-podogrevatrel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dopog-raboty-tachograf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dopog-raboty-uos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dopog-vygody-center.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dopog-vygody-garanty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dopog-vygody-gls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/dtr_gerb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/econom-toplivo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ediniy-sirvise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-3-tacho.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-4-mayak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-4-tacho.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-5-mayak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-5-tacho.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-6-mayak.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-6-tacho.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/etapy-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/fonar-avariynoy-ostanovki-ai-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/for_company2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/galochka16-22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/garantiya.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/genry_ford.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/glonass-153/avtobus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/glonass-153/benz-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/glonass-153/benz-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/glonass-153/benz-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/glonass-153/marshrutka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/glonass-153/partner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-container.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-finance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-kiosk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-secure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-ship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-train.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-truck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-umbrella.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/icon-water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/gps-lock/mess-watchlock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/history-tinkoff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/home-oplata.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/home-oplata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/home-poluchit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/home-zakaz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-auto-gps-tracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-benzovoz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-cards-tachograf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-davlenie-shiny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-dopog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-era-glonass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-all-devices.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-aviacia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-chp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-contener.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-control-vogdenia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-economia-topliva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-georazvedka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-gos-company.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-gruz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-heft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-lovit-vezde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-sea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-speed-control.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-telecom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-iridium-travel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-kursiki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-monitoring-glonass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-monitoring-gruzov.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-monitoring-topliva.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-mvd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-parctronic-gruzovik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-personal-gps-tracker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-rst.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-toplivnye-karty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-ustanovka-tachograf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-video-monitoring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico-zakon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico01-v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico02-v2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main/ico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/inc/calculator.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/inc/card.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/inc/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/inc/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/inc/page-menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/inc/recommended.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/inc/reviews.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/inc/slider-card.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/inc/specialists.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1nWbcv3PEntyThoGXjOgtDEfxJx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1771b14-7293-429e-a093-86837e718e7a" name="Default Changelist" comment="" />
+      <created>1611301077066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611301077066</updated>
+      <workItem from="1611301079635" duration="16296000" />
+      <workItem from="1611320293748" duration="40000" />
+      <workItem from="1611508913588" duration="78000" />
+      <workItem from="1611566764040" duration="8581000" />
+      <workItem from="1611591935873" duration="12000" />
+      <workItem from="1611647725634" duration="358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611591945109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611591945109" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1611566767120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611566767120" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/inc/specialists.blade.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
